@@ -5,9 +5,6 @@ import json
 import pandas as pd
 import os
 
-
-
-
 while True:
   candidato = []
   partido = []
@@ -30,4 +27,4 @@ while True:
 
   print(df_eleicao)
   sleep(3)
-os.system('clear')
+  os.system('clear')
